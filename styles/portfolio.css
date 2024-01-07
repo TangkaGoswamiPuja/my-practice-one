@@ -3,6 +3,8 @@ body{font-family: 'Open Sans', sans-serif;}
 
 /* nav style*/
  nav { display: flex;
+    justify-content: space-between;
+    align-items:center;
 
 }
 
@@ -18,7 +20,8 @@ body{font-family: 'Open Sans', sans-serif;}
         font-style: normal;
         font-weight: 800;
         line-height: normal;}
-        nav > ul{display: flex;}
+        nav > ul{display: flex;
+        align-items: center;}
         nav li {list-style: none;
        margin-right: 50px; }
        
@@ -30,7 +33,23 @@ body{font-family: 'Open Sans', sans-serif;}
         line-height: normal;
         border-radius: 5px;
         background: #FD6E0A;
-        width: 150px;
-        height: 64px;
+        padding: 16px;
         flex-shrink: 0;
     }
+    .btn-style2{color:  #FD6E0A;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border-radius: 5px;
+        padding: 16px;
+        flex-shrink: 0;
+    }
+
+
+/* header style*/
+.header-style{background-color: #FFF8F3;}
+.bannar{display: flex;
+justify-content: space-between;
+align-items: center;}
